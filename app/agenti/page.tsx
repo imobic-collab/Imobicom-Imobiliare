@@ -42,7 +42,7 @@ export default async function AgentiPage() {
                 <div className="w-full md:w-72 h-80 md:h-96 shrink-0 bg-amber-50 overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/adrian-cocosatu.jpg"
+                    src="https://media.crmrebs.com/avatars/None/ba0c4593-4957-4bd6-80db-6dbfe3101526.jpg"
                     alt="Adrian Cocosatu - Fondator Imobicom SRL"
                     className="w-full h-full object-cover object-top"
                   />
