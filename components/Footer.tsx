@@ -82,7 +82,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-gray-500">
           <p>&copy; {new Date().getFullYear()} Imobicom SRL. Toate drepturile rezervate.</p>
-          <p>Autorizație ANAF nr. RO12345678</p>
+          <p>CUI 50846856</p>
         </div>
       </div>
     </footer>

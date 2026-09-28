@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ro">
       <body className={inter.className}>
         <Header />
-        <main className="pt-16 min-h-screen">{children}</main>
+        <main className="pt-16">{children}</main>
         <Footer />
       </body>
     </html>
