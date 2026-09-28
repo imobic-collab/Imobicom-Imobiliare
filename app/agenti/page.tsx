@@ -40,7 +40,7 @@ export default async function AgentiPage() {
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden max-w-3xl mx-auto">
               <div className="flex flex-col md:flex-row">
                 {/* Photo */}
-                <div className="relative w-full md:w-72 h-80 md:h-auto shrink-0 bg-amber-50">
+                <div className="relative w-full md:w-72 h-80 md:h-96 shrink-0 bg-amber-50">
                   <Image
                     src="/adrian-cocosatu.jpg"
                     alt="Adrian Cocosatu - Fondator Imobicom SRL"
