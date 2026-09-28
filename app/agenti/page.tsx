@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { Phone, Mail, Award, ExternalLink } from 'lucide-react';
 import type { Metadata } from 'next';
 import { getAgents } from '@/lib/api';
@@ -40,12 +39,12 @@ export default async function AgentiPage() {
             <div className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden max-w-3xl mx-auto">
               <div className="flex flex-col md:flex-row">
                 {/* Photo */}
-                <div className="relative w-full md:w-72 h-80 md:h-96 shrink-0 bg-amber-50">
-                  <Image
+                <div className="w-full md:w-72 h-80 md:h-96 shrink-0 bg-amber-50 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
                     src="/adrian-cocosatu.jpg"
                     alt="Adrian Cocosatu - Fondator Imobicom SRL"
-                    fill
-                    className="object-cover object-top"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
 
