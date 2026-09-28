@@ -68,7 +68,7 @@ export default async function ContactPage() {
                   <MapPin className="w-5 h-5 text-amber-500 shrink-0 mt-0.5" />
                   <div>
                     <div className="font-medium text-gray-700 mb-0.5">Locație</div>
-                    <span className="text-gray-600">România</span>
+                    <span className="text-gray-600">București, România</span>
                   </div>
                 </div>
 
