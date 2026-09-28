@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description: 'Consultanții imobiliari Imobicom SRL — profesioniști dedicați cu experiență în tranzacții imobiliare.',
 };
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 export default async function AgentiPage() {
   const res = await getAgents().catch(() => ({ objects: [], meta: { total_count: 0, limit: 20, offset: 0, next: null, previous: null } }));
