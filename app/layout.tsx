@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://imobicom.ro'),
   title: {
     default: 'Imobicom SRL - Agenție Imobiliară',
     template: '%s | Imobicom SRL',
@@ -18,6 +19,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'ro_RO',
     siteName: 'Imobicom SRL',
+    url: 'https://imobicom.ro',
   },
 };
 
